@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    text-align: center;
+    background-image: url("http://digitalhealthage.com/wp-content/uploads/2017/08/Video-game-background.jpg");
+}
+
+#wrapper {
+    width: 960px;
+    height: 95%;
+    box-sizing: border-box;
+    margin: 2.5% auto;
+    background-color: maroon;
+}
+
+#sub-wrapper {
+    position: relative;
+    top: 15%;
+}
+
+button {
+    display: block;
+    width: 50%;
+    height: 20%;
+    margin: 0 auto;
+    font-size: 12px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+}
+
+img {
+    height: 200px;
+}
+
+h1 {
+    padding-top: 2.5%;
+    font-family: 'Just Another Hand', cursive;
+    font-size: 6.5em;
+    font-weight: bold;
+    color: white;
+}
+
+h2 {
+    margin-bottom: 25px;
+    font-size: 35px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+#start {
+    margin-top: 10%;
+    background: mintcream;
+    border: 2px solid midnightblue;
+}
+
+button:hover {
+    background: mintcream;
+    border: 2px solid midnightblue;
+}
