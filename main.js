@@ -10,7 +10,7 @@ var questions = [
     answers: ["Spaghetti", "Mario", "Jumpman", "Luigi"],
     correctAnswer: "Mario",
     description: "His full name is Mario Mario.",
-    image: "assets\mario.gif"
+    image: "assets/mario.gif"
     },
 
     {
@@ -18,7 +18,31 @@ var questions = [
     answers: ["Melee is stronger for Peach", "Melee is stronger for Daisy", "No difference", "All of the above"],
     correctAnswer: "Melee is stronger for Peach",
     description: "Although this is barely a noticable difference.",
-    image: "assets\peach.gif"
+    image: "assets/peach.gif"
+    },
+
+    {
+    question: "What color was Kirby supposed to be at first?",
+    answers: ["Yellow", "White", "Pink", "Blue"],
+    correctAnswer: "Pink",
+    description: "Sakurai always wanted Kirby to be pink, but Miyamoto wanted him to be yellow.",
+    image: "assets/db9602d40e9b8a4029bb775bd89058eb.gif"
+    },
+
+    {
+    question: "What is the difference between Peach and Daisy in SSBU?",
+    answers: ["Melee is stronger for Peach", "Melee is stronger for Daisy", "No difference", "All of the above"],
+    correctAnswer: "Melee is stronger for Peach",
+    description: "Although this is barely a noticable difference.",
+    image: "assets/peach.gif"
+    },
+
+    {
+    question: "What is the difference between Peach and Daisy in SSBU?",
+    answers: ["Melee is stronger for Peach", "Melee is stronger for Daisy", "No difference", "All of the above"],
+    correctAnswer: "Melee is stronger for Peach",
+    description: "Although this is barely a noticable difference.",
+    image: "assets/peach.gif"
     }
 
 ]
@@ -139,6 +163,7 @@ var game = {
         clearInterval(timer);
 
         panel.html("<h2>Correct!</h2>");
+        panel.append("<h3>" + questions[game.currentQuestion].description + "</h3>");
         panel.append("<img src='" + questions[game.currentQuestion].image + "'/>" );
 
         if (game.currentQuestion === questions.length - 1)
