@@ -15,8 +15,8 @@ var questions = [
 
     {
     question: "What is the difference between Peach and Daisy in SSBU?",
-    answers: ["Peach's melee is stronger", "Daisy's melee is stronger", "All of the above", "No difference"],
-    correctAnswer: "Peach's melee is stronger",
+    answers: ["Peach`s melee is stronger", "Daisy`s melee is stronger", "All of the above", "No difference"],
+    correctAnswer: "Peach`s melee is stronger",
     description: "Although this is barely a noticable difference.",
     image: "assets/peach.gif"
     },
