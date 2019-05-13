@@ -15,8 +15,8 @@ var questions = [
 
     {
     question: "What is the difference between Peach and Daisy in SSBU?",
-    answers: ["Melee is stronger for Peach", "Melee is stronger for Daisy", "No difference", "All of the above"],
-    correctAnswer: "Melee is stronger for Peach",
+    answers: ["Peach's melee is stronger", "Daisy's melee is stronger", "All of the above", "No difference"],
+    correctAnswer: "Peach's melee is stronger",
     description: "Although this is barely a noticable difference.",
     image: "assets/peach.gif"
     },
@@ -30,19 +30,19 @@ var questions = [
     },
 
     {
-    question: "What is the difference between Peach and Daisy in SSBU?",
-    answers: ["Melee is stronger for Peach", "Melee is stronger for Daisy", "No difference", "All of the above"],
-    correctAnswer: "Melee is stronger for Peach",
-    description: "Although this is barely a noticable difference.",
-    image: "assets/peach.gif"
+    question: "What was the first failed Nintendo console?",
+    answers: ["Wii", "Virtual Boy", "Wii U", "Nintendo DS"],
+    correctAnswer: "Virtual Boy",
+    description: "The Virtual Boy was Nintendo's first failed console, with the Wii U coming in second.",
+    image: "assets/virtual.gif"
     },
 
     {
-    question: "What is the difference between Peach and Daisy in SSBU?",
-    answers: ["Melee is stronger for Peach", "Melee is stronger for Daisy", "No difference", "All of the above"],
-    correctAnswer: "Melee is stronger for Peach",
-    description: "Although this is barely a noticable difference.",
-    image: "assets/peach.gif"
+    question: "What date was the original Mario Bros. released in Japan?",
+    answers: ["September 13th, 1985", "September 14th, 1985", "September 20th, 1985", "September 21st, 1986"],
+    correctAnswer: "September 13th, 1985",
+    description: "It then came out in North America soon after.",
+    image: "assets/mariobros.gif"
     }
 
 ]
